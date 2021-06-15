@@ -1,5 +1,6 @@
-# SoSe_2021_Data_Lib_und_Programmierung
+# SoSe 2021 - Data Lib und Programmierung
 
 Lynn Classen
 
-Umfasst alle Dateien, die im Rahmen der Veranstaltung erstellt werden
+In diesem Repo werden  unter anderem Juypter Notebooks gesammelt.
+
