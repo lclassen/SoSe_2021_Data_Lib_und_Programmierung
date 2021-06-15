@@ -5,7 +5,8 @@ Created on Tue Jun 15 09:49:35 2021
 @author: User
 """
 
-from flask import Flask
+from flask import Flask, render_template
+
 
 print(__name__)
 app = Flask(__name__) 
@@ -20,4 +21,4 @@ def show_info():
 
 @app.route("/isbn/<isbn>")
 def isbn_display(isbn):
-    return "<p>ISBN given: </p>"
+    return render_template("isbn_display.html")
