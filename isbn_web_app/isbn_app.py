@@ -10,6 +10,14 @@ from flask import Flask
 print(__name__)
 app = Flask(__name__) 
 
-@app.route("/")
+@app.route("/") # Start page
 def start_page():
-    return "<p>Hello World! Hope you are good!!!</p>"
+    return "<p>Hello World!</p>"
+
+@app.route("/info") # Information page
+def show_info():
+    return "<p>Some information</p>"
+
+@app.route("/isbn/<isbn>")
+def isbn_display(isbn):
+    return "<p>ISBN given: </p>"
